@@ -5,7 +5,7 @@ import requests
 
 from ..config import VERSION
 from ..returnvalues import ReturnValue
-from .contact import update_local_chatrooms, update_local_friends
+from .contact import update_local_chatrooms
 from .messages import produce_msg
 
 logger = logging.getLogger('itchat')
